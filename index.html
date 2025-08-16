@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Roll Color Dice, 6-sided Color Dice</title>
+<link rel="stylesheet" href="index.css">
+<link rel="icon" type="image/png" href="images/favicon2.png">
+</head>
+<body>
+<img src="images/online-dice.png" alt="Online Dice" class="title-img">
+
+<img src="images/banner1.jpg" alt="Banner Top" id="bannerTop" class="banner-img">
+
+<div class="dropdowns">
+    <img src="images/4dice.jpg" alt="4 Dice" class="dropdown-img" id="diceCountImg">
+        <img src="images/color-dice.jpg" alt="Color Dice" class="dropdown-img">
+        </div>
+
+        <div class="dice-container" id="diceContainer">
+            <div class="dice red"><div class="dot"></div></div>
+                <div class="dice green"><div class="dot"></div></div>
+                    <div class="dice green"><div class="dot"></div></div>
+                        <div class="dice yellow"><div class="dot"></div></div>
+                        </div>
+
+                        <img src="images/banner2.jpg" alt="Banner Bottom" id="bannerBottom" class="banner-img">
+
+                        <img src="images/roll-again.png" alt="Roll Again" class="roll-btn" onclick="startRoll('normal')">
+
+                        <div class="colors-container">
+                            <p class="colors-text">
+                                    Possible colors are: 
+                                            <span style="color: red;" onclick="startRoll('red')">Red</span>, 
+                                                    <span style="color: orange;" onclick="startRoll('orange')">Orange</span>, 
+                                                            <span style="color: yellow;" onclick="startRoll('yellow')">Yellow</span>, 
+                                                                    <span style="color: green;" onclick="startRoll('green')">Green</span>, 
+                                                                            <span style="color: blue;" onclick="startRoll('blue')">Blue</span> and 
+                                                                                    <span style="color: purple;" onclick="startRoll('purple')">Purple</span>.
+                                                                                        </p>
+                                                                                        </div>
+
+                                                                                        <div style="margin-top: 20px;">
+                                                                                            <img src="images/dicework.jpg" alt="Dice Work" style="width:90%; max-width:400px; display:block; margin:10px auto;">
+                                                                                                <img src="images/aboutus.jpg" alt="About Us" style="width:90%; max-width:400px; display:block; margin:10px auto;">
+                                                                                                </div>
+
+                                                                                                <div id="videoOverlay">
+                                                                                                    <video id="rollVideo" autoplay muted></video>
+                                                                                                        <audio id="rollSound"></audio>
+                                                                                                        </div>
+                                                                                                        <script src="index.js"> </script>
+                                                                                                        </body>
+                                                                                                        </html>
